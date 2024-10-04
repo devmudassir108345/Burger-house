@@ -1,0 +1,24 @@
+{
+  "name": "excultancy-project",
+  "version": "1.0.0",
+  "description": "Excultancy web project",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass asset/sass/main.scss asset/css/style.css --watch",
+    "start": "lite-server ",
+    "dev": "concurrently \"npm run sass\" \"npm start\""
+  },
+  "author": "Mudassir",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^22.9.0",
+    "node.js": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "bootstrap": "^5.3.3",
+    "concurrently": "^9.0.1",
+    "lite-server": "^2.6.1",
+    "live-server": "^1.2.2",
+    "sass": "^1.79.3"
+  }
+}
